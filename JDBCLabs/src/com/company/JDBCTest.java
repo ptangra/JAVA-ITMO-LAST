@@ -62,11 +62,11 @@ public class JDBCTest {
 
             // 1-5
             MusicItem mi = new MusicItem();
-            mi.setTitle("Why does my heart feel so bad?");
-            mi.setArtist("Moby");
-            mi.setReleaseDate(new Date(1999, 5, 10));
-            mi.setPrice(55.20f);
-            mi.setListPrice(55.42f);
+            mi.setTitle("new");
+            mi.setArtist("new");
+            mi.setReleaseDate(new Date(1999, 9, 9));
+            mi.setPrice(99.99f);
+            mi.setListPrice(99.99f);
 
             itemDAO.create(mi);
 
