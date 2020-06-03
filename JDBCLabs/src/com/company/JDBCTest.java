@@ -5,8 +5,8 @@ import java.util.ArrayList;
 
 public class JDBCTest {
 
-    static final String DB_URL = "jdbc:postgresql://127.0.0.1:5432/items";
-    static final String DB_USER = "GUEST";
+    static final String DB_URL = "jdbc:postgresql://127.0.0.1:5432/postgres";
+    static final String DB_USER = "postgres";
     static final String DB_PASSWORD = "postgres";
 
     public static void main(String[] args) throws SQLException {
